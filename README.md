@@ -11,6 +11,6 @@ O objetivo deste projeto é familiarizar-me com os conceitos básicos do HTML e 
 - **index.html**: Página inicial do site.
 - **style.css**: Arquivo CSS onde defino estilos para as páginas HTML.
 
-[Executar o exercício do módulo 2](https://andresobraldev.github.io/html-css/modulo2/exercicios){:target="_blank"}
+<a href="https://andresobraldev.github.io/html-css/modulo2/exercicios" target="_blank">Executar o exercício do módulo 2</a>
 
 
