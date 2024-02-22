@@ -1,0 +1,67 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+*{
+    font-family: Protest Strike, Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+p{
+    text-align: center;
+}
+main{
+    background-color: white;
+    width: 600px;
+    border-radius: 10px;
+    box-shadow: 3px 10px 15px rgba(66, 50, 50, 0.534);
+    padding: 50px;
+    margin: auto;
+}
+button:hover {
+    justify-content: center;
+    align-items: center;
+  background-color: #3d8151; /* Alteração de cor ao passar o mouse sobre o botão */
+}
+a{
+    font-style: italic;
+    font-size: 20px;
+}
+img {
+    width: 650px;
+  height: auto; /* Isso mantém a proporção original da imagem */
+}
+button {
+    justify-content: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+div {
+    height: 150px;
+    width: 500px;
+    box-shadow: 3px 10px 15px rgba(66, 50, 50, 0.534);
+    border-radius: 20px;
+    text-align: center;
+    display: flow-root;
+    align-items: center;
+    background-color: #B3CFF2;*/
+    padding: 100px;
+    margin: auto;
+  }
+h1{
+    color: #042940;
+    text-align: center;
+    text-shadow: 1px 1px 60px rgba(0, 0, 0, 0.281)40;
+    font-weight: 600;
+}
+h2{
+    color: #005C53;
+    font-weight: 400;
+}
+body{
+    background-image: linear-gradient(to right, #e0f59a, #cfe436);
+
+}

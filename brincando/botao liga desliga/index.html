@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botão Liga/Desliga</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .botao {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            outline: none;
+            transition: background-color 0.3s ease;
+            background-color: #e74c3c; /* Cor inicial (vermelho) */
+            color: #fff;
+            border-radius: 5px;
+        }
+
+        .ligado {
+            background-color: #2ecc71; /* Cor quando ligado (verde) */
+        }
+    </style>
+</head>
+<body>
+    <button id="meuBotao" class="botao">Desligado</button>
+
+    <script>
+        const meuBotao = document.getElementById('meuBotao');
+
+        meuBotao.addEventListener('click', function() {
+            this.classList.toggle('ligado');
+            this.textContent = this.classList.contains('ligado') ? 'Ligado' : 'Desligado';
+        });
+    </script>
+</body>
+</html>

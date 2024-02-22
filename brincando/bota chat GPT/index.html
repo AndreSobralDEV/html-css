@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botao</title>
+    <style>
+        .botao {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            place-items: center;
+            height: 100vh;
+            background: #1d2834;
+        }
+
+        .btn {
+            width: 200px;
+            height: 50px;
+            font-weight: bold;
+            font-size: 30px;
+            border: none;
+            border-radius: 1000px;
+            color: #000;
+            transition: all 0.6s ease-in-out 0s;
+            box-shadow: inset 0 0 20px #000;
+        }
+
+        .btn:hover {
+            background: #00ffcb; /* Nova cor de fundo ao passar o mouse */
+            color: #fff; /* Nova cor de texto ao passar o mouse */
+            transform: scale(1.2); /* Efeito de escala ao passar o mouse */
+            cursor: grab;
+        }
+    </style>
+</head>
+<body>
+    <div class="botao">
+        <button class="btn">
+            Botão
+        </button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color:dimgray
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        header > h1{
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+            border-radius: 10px;
+            padding-left: 10px;
+            
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px ;
+        }
+        article > aside{
+            background-color: rgb(170, 167, 167);
+        }
+        nav{
+            background-color: rgb(136, 136, 136);
+            box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.466);
+            border-radius: 4px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        nav > a{
+            margin-left: 10px;
+            text-decoration: none;
+            color: white;
+            margin-right: 30px;
+            
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: white;
+            
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p > a{
+            background-color: rgb(100, 8, 8);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p > a{
+            background-color: rgb(100, 8, 8);
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politicas Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis consequatur ut quod similique optio ducimus nesciunt natus omnis saepe soluta tempora corporis alias, enim excepturi iusto dolore nam repellat necessitatibus?</p>
+                <aside>
+                    <p>Artigo escrito por Jose da Silva</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>
+            <p><a href="index.html">Retornar a pagina inicial</a></p>
+        </p>
+    </footer>
+    <footer>
+        <p>Desenvolvido pelo André Sobral</p>
+    </footer>
+</body>
+</html>
