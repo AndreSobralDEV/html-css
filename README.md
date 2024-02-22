@@ -13,3 +13,4 @@ O objetivo deste projeto é familiarizar-me com os conceitos básicos do HTML e 
 
 [Executar o exercício do módulo 2](https://andresobraldev.github.io/html-css/modulo2/exercicios){:target="_blank"}
 
+
